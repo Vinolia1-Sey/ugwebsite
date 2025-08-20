@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.nav1{
+    background-color:  #153d6f;
+}
+.nav1-list{
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-family:  "Montserrat", sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    margin-left: 50px;
+}
+.nav1-list a{
+    color: white;
+}
+li a:hover{
+    color:rgb(204, 149, 77) ;
+}
+a{  
+    text-decoration: none;
+    hover
+}
+
+input[type=text]{
+    border: none;
+    width: 70%;
+    height: 25px;
+    padding: 2px 10px;
+    background-color: #051931;
+  
+}
+/* .searchicon{
+    height: 25px;
+    width: 30px;
+    background-color: #051931;
+    margin-bottom: 5px;
+} */
+.logo{
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.nav2{
+    display: flex;
+}
+.nav2-list{
+    margin-top: 30px;
+    margin-left: 80px;
+
+}
+.li-2{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    color: darkblue;
+    font-family:  "Montserrat", sans-serif;
+    font-size: medium;
+    margin-left: 50px;
+}
+img {
+    max-width: 100%;
+    height: auto;  
+}
+.secondpage{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    
+} 
+.news{
+    color: black;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.undernews{
+    white-space: wrap;
+    font-size: x-large;
+    font-family: "Montserrat", sans-serif;
+}
+.newsdate{
+    font-family: "Montserrat", sans-serif;
+    color: rgb(187, 177, 177);
+}
+.undernews a{
+    color: rgb(61, 60, 60);
+}
+.explore{
+    font-family:  "Montserrat", sans-serif;
+    display: flex;
+    margin-top: 100px; 
+}
+.explore2{
+    display: block;
+    
+}
+.explore2 a{
+    color: rgb(61, 60, 60);
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+.explore2 a:hover{
+    color: #153d6f;
+}
+.explore2 p{
+    font-family: "Montserrat", sans-serif;
+    color: rgb(187, 177, 177);
+}
+.ex1, .ex2, .ex3{
+    margin-bottom: 20px;
+    
+}
+.fifthsection{
+    font-family:  "Montserrat", sans-serif;
+}
+
+.announcement, .feature{
+    font-size: large;
+}
+.announcement a{
+    font-weight: 500;
+}
+.fifthsection a{
+    color: black;
+}
+.announcement a:hover{
+    color: #153d6f;
+    text-decoration: underline;
+    
+}
+.a5{
+    background-color: white;
+    color: black;
+    padding: 8px 14px;
+    border: 1px solid brown;
+    /* text-decoration: none; */
+    font-family:  "Montserrat", sans-serif;
+    font-size: 17px;
+
+}
+
+.a5:hover{
+    cursor: pointer;
+    color: white !important;
+    background-color: #153d6f;
+    text-decoration: none;
+    transition: 0.5s;
+
+}
+.a5 a:hover{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+
+
+}
+
+.feature a:hover{
+    text-decoration: underline;
+}
+.f-text{
+    background-color: #ecf7f7;
+    overflow: auto;
+    font-size: medium;
+} 
+/* .emn{
+    font-family: sans-serif;
+    letter-spacing: 1px;
+} */
+.button-go{
+    text-decoration: none;
+    background-color: darkblue;
+    color: white;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-left: 50px;
+    height: 30px;
+    width: 80px;
+}
+.button-go:hover{
+    cursor: pointer;
+}
+.upcoming-header{
+    margin-left: 100px;
+    display: flex; 
+    border-bottom: 1px solid rgb(209, 206, 206);
+}
+.upcoming{ 
+    margin-top: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: xx-large;
+}
+.view{
+    
+    margin-top: 40px;
+    margin-left: 500px;
+    margin-right: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-size: large;
+}
+.date{
+    margin-top: 20px;
+}
+
+.month{
+    font-family: "Montserrat", sans-serif;
+    font-size: larger;
+    color: #153d6f;
+    margin-bottom: 2px;
+}
+.day{
+    color: #153d6f;
+    font-family: "Montserrat", sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-top: 2px;
+}
+.dt{
+    font-family: "Montserrat", sans-serif; 
+}
+.fifthsection{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ss-list{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: "Montserrat", sans-serif;
+}
+.footer{
+    background-color: #153d6f; 
+}
+.f-carrier{
+    display: flex;
+}
+.f-img, .colleges, .quick, .giveug{
+margin-right: 20px;
+}
+.colleges, .quick{
+    line-height: 10px;
+   
+}
+.footer{
+    font-family: "Montserrat", sans-serif;
+    color: beige;
+}
+.f-div2{
+    display: flex;
+}
+.admission{
+    margin-right: 70px;
+    margin-left: 60px;
+}
+button a{
+    color: white;
+}
+button a:hover{
+    color: rgb(204, 149, 77);
+}
+.view a{
+    color:black;
+}
+.view a:hover{
+    color: darkblue;
+}
+.dt a{
+    color: black;
+}
+.dt a:hover{
+    color: rgb(204, 149, 77);
+}
+.ss-list a{
+    color: rgb(90, 90, 89);
+}
+.ss-list a:hover{
+    color: rgb(204, 149, 77);
+}
+.footer{
+    font-size: large;
+}
+.footer a{
+    color: white;
+}
+.footer a:hover{
+    color: burlywood;
+}
+.copy{
+    display: flex;
+}
+.copyright{
+    color: #838e9c;
+}
+.rights{
+    color: #838e9c;
+    margin-left: 500px;
+}
